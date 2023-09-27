@@ -1,0 +1,32 @@
+{
+  "name": "deunaui",
+  "version": "1.0.0",
+  "description": "Prueba Técnica - UI Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omar-rodsob/deunaUI.git"
+  },
+  "author": "omar rodriguez soberanes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omar-rodsob/deunaUI/issues"
+  },
+  "homepage": "https://github.com/omar-rodsob/deunaUI#readme",
+  "devDependencies": {
+    "cypress": "^13.2.0",
+    "eslint": "^8.49.0",
+    "eslint-plugin-cypress": "^2.14.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.6",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@cypress/browserify-preprocessor": "^3.0.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/e2e/feature/"
+ }
+}

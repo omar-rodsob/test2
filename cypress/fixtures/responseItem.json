@@ -1,0 +1,440 @@
+{
+    "data": {
+        "updateItems": {
+            "id": "e9dd3931942d4da79a9436e5921bce86",
+            "items": [
+                {
+                    "additionalInfo": {
+                        "brandName": "TEMPOS VEGA SICILIA",
+                        "__typename": "ItemAdditionalInfo"
+                    },
+                    "attachments": [],
+                    "attachmentOfferings": [],
+                    "bundleItems": [],
+                    "parentAssemblyBinding": null,
+                    "parentItemIndex": null,
+                    "sellingPriceWithAssemblies": null,
+                    "options": null,
+                    "availability": "available",
+                    "detailUrl": "/vega-sicilia-valbuena-5%C2%B0-2017-750-ml/p",
+                    "id": "2641",
+                    "imageUrls": {
+                        "at1x": "//vinotecamx.vteximg.com.br/arquivos/ids/756945-96-auto",
+                        "at2x": "//vinotecamx.vteximg.com.br/arquivos/ids/756945-192-auto",
+                        "at3x": "//vinotecamx.vteximg.com.br/arquivos/ids/756945-288-auto",
+                        "__typename": "ImageUrls"
+                    },
+                    "listPrice": 432300,
+                    "manualPrice": null,
+                    "measurementUnit": "un",
+                    "modalType": null,
+                    "name": "Vega Sicilia Valbuena 5° 2017 750 ml",
+                    "offerings": [],
+                    "price": 432300,
+                    "priceTags": [
+                        {
+                            "identifier": "e051fb33-a873-4fe0-aed8-c27c5c2b270b",
+                            "isPercentual": false,
+                            "name": "discount@price-e051fb33-a873-4fe0-aed8-c27c5c2b270b#e6ef6b17-e329-43f5-89e4-1edae8ddcfe4",
+                            "rawValue": -1556.28,
+                            "value": -155628,
+                            "__typename": "PriceTag",
+                            "ratesAndBenefitsIdentifier": null
+                        }
+                    ],
+                    "productCategories": {
+                        "1": "Vinos",
+                        "2": "Tinto",
+                        "233": "España"
+                    },
+                    "productCategoryIds": "/1/2/233/",
+                    "productRefId": "VET32896",
+                    "productId": "2692",
+                    "quantity": 3,
+                    "seller": "1",
+                    "sellingPrice": 380424,
+                    "skuName": "Vega Sicilia Valbuena 5° 2017 750 ml",
+                    "skuSpecifications": [],
+                    "unitMultiplier": 1,
+                    "uniqueId": "341000C0CFAD45FC9B2D34B5DD3E3AD8",
+                    "refId": "VET32896",
+                    "isGift": false,
+                    "priceDefinition": {
+                        "calculatedSellingPrice": 380424,
+                        "total": 1141272,
+                        "sellingPrices": [
+                            {
+                                "quantity": 3,
+                                "value": 380424,
+                                "__typename": "SellingPrice"
+                            }
+                        ],
+                        "__typename": "PriceDefinition"
+                    },
+                    "__typename": "Item"
+                }
+            ],
+            "canEditData": true,
+            "loggedIn": false,
+            "userProfileId": null,
+            "userType": "STORE_USER",
+            "marketingData": {
+                "coupon": "",
+                "utmCampaign": "",
+                "utmMedium": "",
+                "utmSource": "",
+                "utmiCampaign": "",
+                "utmiPart": "",
+                "utmiPage": "",
+                "__typename": "MarketingData"
+            },
+            "totalizers": [
+                {
+                    "id": "Items",
+                    "name": "Total de los items",
+                    "value": 1296900,
+                    "__typename": "Totalizer"
+                },
+                {
+                    "id": "Discounts",
+                    "name": "Total de descuentos",
+                    "value": -155628,
+                    "__typename": "Totalizer"
+                }
+            ],
+            "shipping": {
+                "countries": [
+                    "MEX"
+                ],
+                "availableAddresses": [],
+                "selectedAddress": null,
+                "deliveryOptions": [],
+                "pickupOptions": [],
+                "isValid": false,
+                "__typename": "Shipping"
+            },
+            "paymentData": {
+                "paymentSystems": [
+                    {
+                        "id": "16",
+                        "name": "Vale",
+                        "groupName": "giftCardPaymentGroup",
+                        "validator": {
+                            "regex": null,
+                            "mask": null,
+                            "cardCodeRegex": null,
+                            "cardCodeMask": null,
+                            "weights": null,
+                            "useCvv": false,
+                            "useExpirationDate": false,
+                            "useCardHolderName": false,
+                            "useBillingAddress": false,
+                            "__typename": "Validator"
+                        },
+                        "stringId": "16",
+                        "requiresDocument": false,
+                        "isCustom": false,
+                        "description": null,
+                        "requiresAuthentication": false,
+                        "dueDate": "2023-10-03T16:38:17.0076728Z",
+                        "__typename": "PaymentSystem"
+                    },
+                    {
+                        "id": "127",
+                        "name": "MercadoPagoPro",
+                        "groupName": "MercadoPagoProPaymentGroup",
+                        "validator": {
+                            "regex": null,
+                            "mask": null,
+                            "cardCodeRegex": null,
+                            "cardCodeMask": null,
+                            "weights": null,
+                            "useCvv": false,
+                            "useExpirationDate": false,
+                            "useCardHolderName": false,
+                            "useBillingAddress": false,
+                            "__typename": "Validator"
+                        },
+                        "stringId": "127",
+                        "requiresDocument": false,
+                        "isCustom": false,
+                        "description": null,
+                        "requiresAuthentication": false,
+                        "dueDate": "2023-10-03T16:38:17.0076728Z",
+                        "__typename": "PaymentSystem"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Visa",
+                        "groupName": "creditCardPaymentGroup",
+                        "validator": {
+                            "regex": "^4[0-9]{15}$",
+                            "mask": "9999 9999 9999 9999",
+                            "cardCodeRegex": "^[0-9]{3}$",
+                            "cardCodeMask": "999",
+                            "weights": [
+                                2,
+                                1,
+                                2,
+                                1,
+                                2,
+                                1,
+                                2,
+                                1,
+                                2,
+                                1,
+                                2,
+                                1,
+                                2,
+                                1,
+                                2,
+                                1,
+                                2,
+                                1,
+                                2
+                            ],
+                            "useCvv": true,
+                            "useExpirationDate": true,
+                            "useCardHolderName": true,
+                            "useBillingAddress": true,
+                            "__typename": "Validator"
+                        },
+                        "stringId": "2",
+                        "requiresDocument": false,
+                        "isCustom": false,
+                        "description": null,
+                        "requiresAuthentication": false,
+                        "dueDate": "2023-10-03T16:38:17.0076728Z",
+                        "__typename": "PaymentSystem"
+                    },
+                    {
+                        "id": "1",
+                        "name": "American Express",
+                        "groupName": "creditCardPaymentGroup",
+                        "validator": {
+                            "regex": "^3[47][0-9]{13}$",
+                            "mask": "9999 999999 99999",
+                            "cardCodeRegex": "^[0-9]{4}$",
+                            "cardCodeMask": "9999",
+                            "weights": [
+                                1,
+                                2,
+                                1,
+                                2,
+                                1,
+                                2,
+                                1,
+                                2,
+                                1,
+                                2,
+                                1,
+                                2,
+                                1,
+                                2,
+                                1,
+                                2,
+                                1,
+                                2,
+                                1
+                            ],
+                            "useCvv": true,
+                            "useExpirationDate": true,
+                            "useCardHolderName": true,
+                            "useBillingAddress": true,
+                            "__typename": "Validator"
+                        },
+                        "stringId": "1",
+                        "requiresDocument": false,
+                        "isCustom": false,
+                        "description": null,
+                        "requiresAuthentication": false,
+                        "dueDate": "2023-10-03T16:38:17.0076728Z",
+                        "__typename": "PaymentSystem"
+                    },
+                    {
+                        "id": "4",
+                        "name": "Mastercard",
+                        "groupName": "creditCardPaymentGroup",
+                        "validator": {
+                            "regex": "^((5(([1-2]|[4-5])[0-9]{8}|0((1|6)([0-9]{7}))|3(0(4((0|[2-9])[0-9]{5})|([0-3]|[5-9])[0-9]{6})|[1-9][0-9]{7})))|((508116)\\d{4,10})|((502121)\\d{4,10})|((589916)\\d{4,10})|(2[0-9]{15})|(67[0-9]{14})|(506387)\\d{4,10})",
+                            "mask": "9999 9999 9999 9999",
+                            "cardCodeRegex": "^[0-9]{3}$",
+                            "cardCodeMask": "999",
+                            "weights": [
+                                2,
+                                1,
+                                2,
+                                1,
+                                2,
+                                1,
+                                2,
+                                1,
+                                2,
+                                1,
+                                2,
+                                1,
+                                2,
+                                1,
+                                2,
+                                1,
+                                2,
+                                1,
+                                2
+                            ],
+                            "useCvv": true,
+                            "useExpirationDate": true,
+                            "useCardHolderName": true,
+                            "useBillingAddress": true,
+                            "__typename": "Validator"
+                        },
+                        "stringId": "4",
+                        "requiresDocument": false,
+                        "isCustom": false,
+                        "description": null,
+                        "requiresAuthentication": false,
+                        "dueDate": "2023-10-03T16:38:17.0076728Z",
+                        "__typename": "PaymentSystem"
+                    },
+                    {
+                        "id": "201",
+                        "name": "Vinoteca Pago con Tarjeta",
+                        "groupName": "custom201PaymentGroupPaymentGroup",
+                        "validator": {
+                            "regex": null,
+                            "mask": null,
+                            "cardCodeRegex": null,
+                            "cardCodeMask": null,
+                            "weights": null,
+                            "useCvv": false,
+                            "useExpirationDate": false,
+                            "useCardHolderName": false,
+                            "useBillingAddress": false,
+                            "__typename": "Validator"
+                        },
+                        "stringId": "201",
+                        "requiresDocument": false,
+                        "isCustom": true,
+                        "description": "Al dar clic en Pagar será redireccionado a un lugar seguro para realizar su pago",
+                        "requiresAuthentication": false,
+                        "dueDate": "2023-09-27T16:38:17.0076728Z",
+                        "__typename": "PaymentSystem"
+                    }
+                ],
+                "payments": [],
+                "installmentOptions": [
+                    {
+                        "paymentSystem": "1",
+                        "installments": [
+                            {
+                                "count": 1,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 760848,
+                                "total": 760848,
+                                "__typename": "Installment"
+                            }
+                        ],
+                        "__typename": "InstallmentOption"
+                    },
+                    {
+                        "paymentSystem": "2",
+                        "installments": [
+                            {
+                                "count": 1,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 760848,
+                                "total": 760848,
+                                "__typename": "Installment"
+                            }
+                        ],
+                        "__typename": "InstallmentOption"
+                    },
+                    {
+                        "paymentSystem": "4",
+                        "installments": [
+                            {
+                                "count": 1,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 760848,
+                                "total": 760848,
+                                "__typename": "Installment"
+                            }
+                        ],
+                        "__typename": "InstallmentOption"
+                    },
+                    {
+                        "paymentSystem": "16",
+                        "installments": [
+                            {
+                                "count": 1,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 760848,
+                                "total": 760848,
+                                "__typename": "Installment"
+                            }
+                        ],
+                        "__typename": "InstallmentOption"
+                    },
+                    {
+                        "paymentSystem": "127",
+                        "installments": [
+                            {
+                                "count": 1,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 760848,
+                                "total": 760848,
+                                "__typename": "Installment"
+                            }
+                        ],
+                        "__typename": "InstallmentOption"
+                    },
+                    {
+                        "paymentSystem": "201",
+                        "installments": [
+                            {
+                                "count": 1,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 760848,
+                                "total": 760848,
+                                "__typename": "Installment"
+                            }
+                        ],
+                        "__typename": "InstallmentOption"
+                    }
+                ],
+                "availableAccounts": [],
+                "isValid": false,
+                "__typename": "PaymentData"
+            },
+            "clientProfileData": {
+                "email": "omar@mail.com",
+                "firstName": "omar",
+                "lastName": "rdz",
+                "document": null,
+                "documentType": null,
+                "phone": "+522233445566",
+                "isValid": false,
+                "__typename": "ClientData"
+            },
+            "clientPreferencesData": {
+                "locale": "es-MX",
+                "optInNewsletter": false,
+                "__typename": "ClientPreferencesData"
+            },
+            "messages": {
+                "couponMessages": [],
+                "generalMessages": [],
+                "__typename": "OrderFormMessages"
+            },
+            "value": 1141272,
+            "allowManualPrice": false,
+            "customData": null,
+            "__typename": "OrderForm"
+        }
+    }
+}
