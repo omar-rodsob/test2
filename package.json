@@ -4,7 +4,7 @@
   "description": "Prueba Técnica - UI Testing",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run"
+    "test": "cypress run -b chrome"
   },
   "repository": {
     "type": "git",
@@ -28,5 +28,5 @@
   },
   "cypress-cucumber-preprocessor": {
     "step_definitions": "cypress/e2e/feature/"
- }
+  }
 }
