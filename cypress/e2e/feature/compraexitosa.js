@@ -14,7 +14,7 @@ beforeEach(() => {
     cy.intercept('POST', 'https://www.vinoteca.com/_v/private/graphql/v1*').as('items');
   });
 
-Given('un cliente con acceso a la plataforma "{word}"',()=>{
+Given('un cliente con acceso a la plataforma',()=>{
     cy.visit("/");        
 });
 
